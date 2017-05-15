@@ -28,7 +28,7 @@ For reference, here is the code for testing the API:
 curl -v -X POST \
 https://trial.dominodatalab.com/v1/josibake/nltk-classifier/endpoint \
 -H 'Content-Type: application/json' \
--H 'X-Domino-Api-Key: YZPNWctdJ2dHnjTBXbZzEIpkHI5juk1QFwx0H8XYYr9U1dWpMfzjQP030tabRDvP' \
+-H 'X-Domino-Api-Key: ${DOMINO_API_KEY}' \
 -d '{"parameters": [ "samuel", "sarah", "emily"]}'
 ```
 ## More thoughts on API publishing
